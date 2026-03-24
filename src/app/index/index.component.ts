@@ -35,6 +35,16 @@ import { RouterLink } from '@angular/router';
             <strong>Step 5.</strong> Resource API ( REST HTTP )
           </a>
         </li>
+        <li style="margin-bottom: 1rem; padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
+          <a routerLink="/signals/rxjs" style="text-decoration: none; color: #9c27b0; font-size: 1.2rem; display: block;">
+            <strong>Step 6.</strong> RxJS Interop ( toSignal / toObservable )
+          </a>
+        </li>
+        <li style="margin-bottom: 1rem; padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
+          <a routerLink="/signals/linked" style="text-decoration: none; color: #ff5722; font-size: 1.2rem; display: block;">
+            <strong>Step 7.</strong> Linked Signals ( Angular 19+ )
+          </a>
+        </li>
       </ul>
     </div>
   `

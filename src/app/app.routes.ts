@@ -6,5 +6,7 @@ export const routes: Routes = [
   { path: 'signals/computed', loadComponent: () => import('./signals/computed-signal/computed-signal.component').then(m => m.ComputedSignalComponent) },
   { path: 'signals/effect', loadComponent: () => import('./signals/effect-signal/effect-signal.component').then(m => m.EffectSignalComponent) },
   { path: 'signals/untracked', loadComponent: () => import('./signals/untracked-signal/untracked-signal.component').then(m => m.UntrackedSignalComponent) },
-  { path: 'signals/resource', loadComponent: () => import('./signals/resource-signal/resource-signal.component').then(m => m.ResourceSignalComponent) }
+  { path: 'signals/resource', loadComponent: () => import('./signals/resource-signal/resource-signal.component').then(m => m.ResourceSignalComponent) },
+  { path: 'signals/rxjs', loadComponent: () => import('./signals/rxjs-interop/rxjs-interop.component').then(m => m.RxjsInteropComponent) },
+  { path: 'signals/linked', loadComponent: () => import('./signals/linked-signal/linked-signal.component').then(m => m.LinkedSignalComponent) }
 ];
